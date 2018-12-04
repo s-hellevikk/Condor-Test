@@ -29,13 +29,14 @@ public class RobotMap {
 			1,
 			2,
 			3
+	};
 	public static WPI_TalonSRX drivebaseIDS = new WPI_TalonSRX(drivebaseTalons);
 	public static WPI_TalonSRX[] talons = new WPI_TalonSRX[] {
 				new WPI_TalonSRX(drivebaseTalons[0]),
 				new WPI_TalonSRX(drivebaseTalons[1]),
 				new WPI_TalonSRX(drivebaseTalons[2]),
 				new WPI_TalonSRX(drivebaseTalons[3]),
-	}
+	};
 			};
 	
 	
