@@ -41,7 +41,18 @@ public class OI {
 	// button.whenReleased(new ExampleCommand());
 	public Joystick stick = new Joystick(0);
 	public Joystick codriver = new Joystick(1);
-	public Button buttonIn = new joystickButton (codriver,2);
-	public Button buttonIn = new joystickButton (codriver,2);
-
+	public Button buttonIn = new JoystickButton (codriver,2);
+	public Button buttonDown = new JoystickButton (codriver,3);
+	public Button buttonUp = new JoystickButton (codriver,4);
+	public Button buttonOut = new JoystickButton (codriver,5);
+	public Button buttonCatapult = new JoystickButton (codriver,6);
+	public OI() {
+		buttonIn.whileHeld(new intakeIn());
+		buttonDown.whenPressed(new IntakeDown());
+		buttonUp.whenPressed(new IntakeUp());
+		buttonOut.whenHeld(new intakeOut());
+		buttonCatapult.whenPressed(new Catapult());
+		
+	}
+}
 
