@@ -38,6 +38,12 @@ public class RobotMap {
 				new WPI_TalonSRX(drivebaseTalons[3]),
 	};
 			};
+	public static int catapultID1 = 0;
+	public static int catapultID2 = 1;
+	public static int latchID1 = 2;
+	public static int latchID2 = 3;
+	public static int up = 4;
+	public static int down = 5;
 	
-	
+	public static DoubleSolenoid catapult = new DoubleSolenoid(catapultID1,catapultID2);
 
