@@ -4,5 +4,5 @@ public class IntakeUpDownSubsystem {
 intakeUp()
 intakeDown90
 
-	private static DoubleSolenoid updown = new DoubleSolenoid(RobotMap.updown)
+	private static DoubleSolenoid updown = RobotMap.updown
 }

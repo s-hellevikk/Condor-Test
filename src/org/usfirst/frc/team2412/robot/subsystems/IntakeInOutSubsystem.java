@@ -6,5 +6,5 @@ public class IntakeInOutSubsystem {
 intakeIn(intakeIn(), intakeOut() and intakeStop());
 intakeOut(intakeIn(), intakeOut() and intakeStop());
 intakeStop(intakeIn(), intakeOut(), and intakeStop());
-private WPI_TalonSRX roller = RobotMap.rollerID
+private WPI_TalonSRX roller = RobotMap.rollerID;
 };
