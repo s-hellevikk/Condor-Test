@@ -46,4 +46,6 @@ public class RobotMap {
 	public static int down = 5;
 	
 	public static DoubleSolenoid catapult = new DoubleSolenoid(catapultID1,catapultID2);
+	public static DoubleSolenoid latch = new DoubleSolenoid(latchID1,latchID2);
+	public static DoubleSolenoid updown = new DobleSolenoid(up,down);
 
